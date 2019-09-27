@@ -12,9 +12,9 @@
             <h1>Creep It Real</h1>
             <nav>
             <ul>
-            <li><a href="index.php">Home</li>
-            <li><a href="register.php">Register</li>
-            <li><a href="login.php">Log in</li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="register.php">Register</a></li>
+            <li><a href="login.php">Log in</a></li>
             </ul>
             </nav>
         </header>
