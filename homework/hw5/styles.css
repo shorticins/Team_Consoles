@@ -27,12 +27,12 @@ color: black;
 
 
 
-header nav{
+nav{
     background-color: black;
     color: orange;
     width: 50%;
     }
-header nav ul {
+nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -41,17 +41,17 @@ header nav ul {
     padding: 3px;
     margin: 2px;
 }
-header nav ul li{
+nav ul li{
 padding: 2px;
 margin: 3px;
 }
-header nav ul li a {
+nav ul li a {
     color: orange;
     text-decoration: none;
 
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 #logo{
@@ -72,4 +72,10 @@ h1{
     justify-content: center;
     align-items: center;
     font-family: 'Bangers', cursive;
+}
+
+footer{
+    padding: 50px;
+background-color: black;
+border-top: 2px groove orange;
 }
