@@ -27,6 +27,7 @@ header nav ul {
     margin: 2px;
 }
 header nav li a {
+    color: orange;
     text-decoration: none;
 }
 
