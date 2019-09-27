@@ -59,6 +59,7 @@ header nav ul li a:hover {
     width: 100px;
     height: 100px;
     margin: .5px 2px .5px .5px;
+    transition: transform 0.5s linear;
 
 }
 #logo:hover{
