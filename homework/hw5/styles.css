@@ -40,13 +40,17 @@ header nav ul {
     padding: 3px;
     margin: 2px;
 }
-header nav li a {
+header nav ul li{
+padding: 2px;
+margin: 3px;
+}
+header nav ul li a {
     color: orange;
     text-decoration: none;
-    margin: 2px;
+
 }
 
-header nav li a:hover {
+header nav ul li a:hover {
     text-decoration: underline;
 }
 #logo{
@@ -61,5 +65,7 @@ header nav li a:hover {
 }
 h1{
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Bangers', cursive;
 }
