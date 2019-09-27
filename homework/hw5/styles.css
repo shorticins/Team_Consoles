@@ -20,7 +20,7 @@ color: black;
 }
 
 #title{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
     }
@@ -43,12 +43,14 @@ header nav ul {
 header nav li a {
     color: orange;
     text-decoration: none;
+    margin: 2px;
 }
 
 header nav li a:hover {
     text-decoration: underline;
 }
 #logo{
+    display: flex;
     width: 100px;
     height: 100px;
     margin: .5px 2px .5px .5px;
@@ -58,5 +60,6 @@ header nav li a:hover {
 
 }
 h1{
+    display: flex;
     font-family: 'Bangers', cursive;
 }
