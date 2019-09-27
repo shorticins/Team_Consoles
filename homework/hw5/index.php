@@ -6,7 +6,7 @@
     include('header.php');
 ?>
         <main>
-            <h1>Creep It Real</h1>
+            <h2>Welcome to Creep It Real</h2>
 
             <div class="header_img">
                 <img src="images/skull.jpg" alt="Skull and Pumpkins" width="900">
@@ -32,4 +32,4 @@
 
         </main>
 
-<?php include('includes/footer.php');
+<?php include('footer.php');

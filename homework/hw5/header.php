@@ -9,6 +9,6 @@
     <body>
         <header>
         <img id="logo" src="images/logo.png" alt="silly cartoon face">
-            <p>Header</p>
+            <h1>Creep It Real</h1>
         </header>
         <!--END OF HEADER-->
