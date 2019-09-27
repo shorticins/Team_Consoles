@@ -62,7 +62,9 @@ header nav ul li a:hover {
 
 }
 #logo:hover{
-
+transform: scale(1.3);
+filter: invert(100%);
+filter: hue-rotate(90deg);
 }
 h1{
     display: flex;
