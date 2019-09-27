@@ -1,6 +1,9 @@
-body{
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
     font-family: 'Gloria Hallelujah', cursive;
     background-color: black;
     color: orange;
@@ -12,16 +15,23 @@ color: black;
 }
 header nav{
     background-color: black;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     color: orange;
     }
 header nav ul {
     list-style: none;
     padding: 3px;
     margin: 2px;
+}
+header nav li a {
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
 }
 #logo{
     width: 200px;
