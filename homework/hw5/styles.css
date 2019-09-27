@@ -30,6 +30,7 @@ color: black;
 header nav{
     background-color: black;
     color: orange;
+    width: 50%;
     }
 header nav ul {
     display: flex;
