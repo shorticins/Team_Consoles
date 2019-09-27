@@ -8,8 +8,10 @@
     </head>
     <body>
         <header>
+        <div id="title">
         <img id="logo" src="images/logo.png" alt="silly cartoon face">
             <h1>Creep It Real</h1>
+            </div>
             <nav>
             <ul>
             <li><a href="index.php">Home</a></li>
