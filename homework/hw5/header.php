@@ -10,5 +10,12 @@
         <header>
         <img id="logo" src="images/logo.png" alt="silly cartoon face">
             <h1>Creep It Real</h1>
+            <nav>
+            <ul>
+            <li><a href="index.php">Home</li>
+            <li><a href="register.php">Register</li>
+            <li><a href="login.php">Log in</li>
+            </ul>
+            </nav>
         </header>
         <!--END OF HEADER-->
