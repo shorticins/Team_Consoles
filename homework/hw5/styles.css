@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Gloria Hallelujah', cursive;
+    background-color: black;
+    color: rgb(192, 226, 43);
 }
 
 header{
