@@ -1,13 +1,10 @@
-<?php
-/*Please add login markup for login form and php code for validation...
+<!--Please add login markup for login form and php code for validation...
 remember to include header and footer - thx--Shanen
 
     Add login markup for login form and php code for validation...
-    including header and footer - Oanh
-*/
-?>
+    including header and footer - Oanh-->
 <?php
-    include('header.php');
+include('header.php');
 ?>
 
 <?php

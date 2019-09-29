@@ -1,7 +1,6 @@
-<?php
-    //Grace is working on this
-    //php -S localhost:3000
-?>
+<?php php -S localhost: 3000 ?>
+    <!--Grace is working on this-->
+
 <?php
     include('header.php');
 ?>
@@ -32,4 +31,4 @@
 
         </main>
 
-<?php include('footer.php');
+<?php include('footer.php'); ?>
