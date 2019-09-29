@@ -1,7 +1,6 @@
 <?php
 /*Please add login markup for registration form and php code for validation...
 remember to include header and footer - thx--Shanen
-
     Add login markup for registration form and php code for validation...
     including header and footer - Oanh
 */
@@ -16,7 +15,7 @@ remember to include header and footer - thx--Shanen
     $l_name = "";
     $email = "";
     $password = "";
-
+    $conf_password ="";
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
         // store post data into variables
         $f_name = $_POST['f_name'];
@@ -24,73 +23,83 @@ remember to include header and footer - thx--Shanen
         $email = $_POST['email'];
         $password = $_POST['password'];
         $conf_password = $_POST['conf_password'];
-        $error = "This field is required. Please re-enter";
+
         // validate email field
         if(empty($f_name)) {
-            $error;
+            $error_f = "This field is required. Please enter your first name.";
         }
-        if(empty($l_name)) {
-            $error;
+        elseif(empty($l_name)) {
+            $error_l = "This field is required. Please enter your last name.";
         }
-        if(empty($email)) {
-            $error;
+        elseif(empty($email)) {
+            $error_e = "This field is required. Please enter your email.";
         }
-        if(empty($password)) {
-            $error;
+        elseif(empty($password)) {
+            $error_p = "This field is required. Please enter your password.";
         }
-        if(empty($conf_password)) {
-            $error;
+        elseif(empty($conf_password)) {
+            $error_cp = "This field is required. Please re-enter your password.";
+        }
+        else{
         }
     }
 ?>
+
 <main>
     <h1>Registration Form</h1>
     <form action="register.php" method="POST">
-
     <label for="f_name">First Name:</label>
-    <input type="name" id="f_name" value="<?php echo $f_name; ?>"></br>
+    <input type="text" id="f_name" name="f_name" value="<?php echo $f_name; ?>"></br>
+
     <?php // if first name is not entered, display error message
-        if(isset('$error')) {
-            echo "<p>$error</p>";
+        if(isset($error_f)) {
+            echo "<p>$error_f</p>";
         }
     ?>
     <label for="l_name">Last Name:</label>
-    <input type="name" id="l_name" value="<?php echo $l_name; ?>"></br>
+    <input type="text" id="l_name" name="l_name" value="<?php echo $l_name; ?>"></br>
     <?php // if last name is not entered, display error message
-        if(isset('$error')) {
-            echo "<p>$error</p>";
+        if(isset($error_l)) {
+            echo "<p>$error_l</p>";
         }
     ?>
     <label for="email">Email</label>
-    <input type="email" id="email" placeholder="test@test.com" value="<?php echo $email; ?>"></br>
+    <input type="email" id="email" name="email" placeholder="test@test.com" value="<?php echo $email; ?>"></br>
     <?php // if email is not entered, display error message
-        if(isset('$error')) {
-            echo $error;
+        if(isset($error_e)) {
+            echo "<p>$error_e</p>";
         }
     ?>
     <label for="password">Password</label>
-    <input type="password" id="password"></br>
+    <input type="password" id="password" name="password"></br>
     <?php // if password is not entered, display error message
-        if(isset('$error')) {
-            echo "<p>$error</p>";
+        if(isset($error_p)) {
+            echo "<p>$erro_pr</p>";
         }
     ?>
-    <label for="conf_password">Re-enter Your Password</label>
-    <input type="password" id="conf_password"></br>
+    <label for="conf_password">Confirm Your Password</label>
+    <input type="password" id="conf_password" name="conf_password"></br>
     <?php // if confirmed is not entered, display error message
-        if(isset('$error')) {
-            echo "<p>$error</p>";
+        if(isset($error_cp)) {
+            echo "<p>$error_cp</p>";
         }
         elseif($conf_password != $password) {
-            echo "<p>Please enter the matching password.</p>";
+            echo "<p>Oops! Something is wrong. Re-enter your password.</p>";
         }
         else {
-            echo "<p>Click it!</p>";
-        }
 
+        }
     ?>
 
-    <button>Welcome to Creep It Real</button>
+    <input type="submit" name="register_button" value="Register to Creep It Real!">
+
+    <?php // display message when submit button is clicked and all fields are correctly entered
+    if ((isset($_POST['register_button']))  && (!isset($error_f)) && (!isset($error_l))&& (!isset($error_e)) && (!isset($error_p)) && (!isset($error_cp)) && ($conf_password == $password)) {
+    echo "<p>Congratulations!!! You are registered to Creep It Real!</p>";
+    echo "<p>Look for our special announcements in your inbox.</p>";
+    }
+?>
+
 
     </form>
 </main>
