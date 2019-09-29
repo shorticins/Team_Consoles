@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Homepage</title>
+        <title>Creep it Real</title>
         <link href="styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bangers|Gloria+Hallelujah&display=swap" rel="stylesheet">
     </head>
