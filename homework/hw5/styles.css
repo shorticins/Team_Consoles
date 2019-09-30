@@ -26,7 +26,7 @@ color: black;
 
 .header_img {
 padding: 10px;
-margin: 20px 20% 20px 20%;
+margin: 20px 20% 20px 32%;
 }
 
 .header_txt  {
@@ -45,6 +45,7 @@ nav{
     color: orange;
     width: 50%;
     }
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -54,19 +55,22 @@ nav ul {
     padding: 3px;
     margin: 2px;
 }
+
 nav ul li{
 padding: 2px;
 margin: 3px;
 }
+
 nav ul li a {
     color: orange;
     text-decoration: none;
-
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+
 #logo{
     display: flex;
     width: 100px;
@@ -99,20 +103,46 @@ h3{
     font-size: 2em;
 }
 
-.categories{
-    padding: 10px;
+#login_header, #register_header {
+    padding: 20px;
 }
 
-.login_header, .register_header {
+#categories{
+    padding: 20px;
+    margin-left: 20%;
+}
+
+.categories{
+    padding: 20px;
+}
+
+p{
+    color: white;
+    font-size: 1.3em;
+    text-align: left;
+    margin: 40px 0px 40px 350px;
+
+}
+#register_link {
+    text-decoration: none;
+    color: red;
+}
+
+main {
+    text-align: center;
+}
+
+.login_label, .register_label {
     color: white;
     padding: 20px;
-    margin-top: 20px;
     font-size: 1.5em;
 }
 
 form {
+    text-align: left;
+    margin-top: 30px;
     margin-left: 10%;
-    padding-bottom: 25px;
+    padding-bottom: 70px;
 }
 
 .info_text {
@@ -129,9 +159,12 @@ input {
   color: red;
 }
 
-
+.footer_link{
+    text-align: center;
+}
 footer{
-    padding: 50px;
-background-color: black;
-border-top: 2px groove orange;
+   text-align: center;
+   padding: 10px;
+   background-color: black;
+   border-top: 2px groove orange;
 }

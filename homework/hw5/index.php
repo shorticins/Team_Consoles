@@ -12,7 +12,7 @@
             </div>
 
             <div class="header_img">
-                <img src="images/skull.jpg" alt="Skull and Pumpkins" width="1200">
+                <img src="images/skull.jpg" alt="Skull and Pumpkins" width="800">
             </div>
 
             <div id="categories">
@@ -34,8 +34,8 @@
             <p>Make them scream with envy over our costumes. Creep It Real is the number one source of high-quality
             Halloween costumes. From kings to pirates, movie characters, and more, we have everything to make you stand out from the
             crowd. Register today to browse our selection of exclusive styles!</p>
-            <p>If you've got it, haunt it.</p>
-            <a href="">Register</a>
+            <p>If you've got it, haunt it.  <a href="register.php" id="register_link">Register</a> </p>
+
             </div>
             </div>
         </main>

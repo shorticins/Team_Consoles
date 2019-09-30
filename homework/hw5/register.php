@@ -46,10 +46,10 @@ remember to include header and footer - thx--Shanen
 ?>
 
 <main>
-    <h1>Registration Form</h1>
+    <h1 id="register_header">Registration Form</h1>
 
     <form action="register.php" method="POST">
-    <label for="f_name" class="register_header">First Name:</label>
+    <label for="f_name" class="register_label">First Name:</label>
     <input type="text" id="f_name" name="f_name" value="<?php echo $f_name; ?>"></br>
 
     <?php // if first name is not entered, display error message
@@ -57,28 +57,28 @@ remember to include header and footer - thx--Shanen
             echo "<p>$error_f</p>";
         }
     ?>
-    <label for="l_name"  class="register_header">Last Name:</label>
+    <label for="l_name"  class="register_label">Last Name:</label>
     <input type="text" id="l_name" name="l_name" value="<?php echo $l_name; ?>"></br>
     <?php // if last name is not entered, display error message
         if(isset($error_l)) {
             echo "<p>$error_l</p>";
         }
     ?>
-    <label for="email" class="register_header">Email:</label>
+    <label for="email" class="register_label">Email:</label>
     <input type="email" id="email" name="email" placeholder="test@test.com" value="<?php echo $email; ?>"></br>
     <?php // if email is not entered, display error message
         if(isset($error_e)) {
             echo "<p>$error_e</p>";
         }
     ?>
-    <label for="password" class="register_header">Password:</label>
+    <label for="password" class="register_label">Password:</label>
     <input type="password" id="password" name="password"></br>
     <?php // if password is not entered, display error message
         if(isset($error_p)) {
             echo "<p>$erro_pr</p>";
         }
     ?>
-    <label for="conf_password" class="register_header">Confirm Your Password:</label>
+    <label for="conf_password" class="register_label">Confirm Your Password:</label>
     <input type="password" id="conf_password" name="conf_password"></br>
     <?php // if confirmed is not entered, display error message
         if(isset($error_cp)) {
