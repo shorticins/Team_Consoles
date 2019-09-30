@@ -35,24 +35,24 @@ remember to include header and footer - thx--Shanen
     }
 ?>
 <main>
-    <h1>Login Page</h1>
+    <h1 id="login_header">Login Page</h1>
     <form action="login.php" method="POST">
 
-    <label for="email">Email:</label>
+    <label for="email" class="login_label">Email:</label>
     <input type="email" id="email" name="email" placeholder="test@test.com" value="<?php echo $email; ?>"></br>
     <?php // if email is not entered, display error message
         if(isset($error_e)) {
             echo "<p>$error_e</p>";
         }
     ?>
-    <label for="password">Password:</label>
+    <label for="password" class="login_label">Password:</label>
     <input type="password" id="password" name="password"></br>
     <?php // if password is not entered, display error message
         if(isset($error_p)) {
             echo "<p>$error_p</p>";
         }
     ?>
-    <label for="password">Confirm Your Password:</label>
+    <label for="password" class="login_label">Confirm Your Password:</label>
     <input type="password" id="conf_password" name="conf_password"></br>
     <?php // if password is not entered, display error message
         if(isset($error_p)) {
