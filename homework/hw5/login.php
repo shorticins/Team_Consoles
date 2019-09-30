@@ -56,9 +56,9 @@ remember to include header and footer - thx--Shanen
         if(isset($error_p)) {
             echo "<p>$error_cp</p>";
         }
-        else {
+        /*elseif {
             echo "<p>Oops! Something is wrong. Re-enter your password.</p>";
-        }
+        }*/
     ?>
 
     <input type="submit" name="login_button" value="Login!">
