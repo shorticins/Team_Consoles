@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
 }
-/*.main{
-    width: 1350px;
-
-}*/
+.main{
+    diplay: block;
+    /*width: 1350px;*/
+margin: auto;
+    text-align: center;
+}
 body{
     font-family: 'Creepster', cursive;
     background-color: black;
@@ -128,14 +130,14 @@ p{
     text-decoration: none;
     color: red;
 }
-
+/*
 .main {
    diplay: block;
    width: 80%;
    margin: auto;
     text-align: center;
 }
-
+*/
 .login_label, .register_label {
     color: white;
     padding: 20px;
