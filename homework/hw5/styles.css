@@ -26,18 +26,7 @@ background-color: orange;
 color: black;
 }
 
-.header_img {
-padding: 10px;
-margin: 20px auto;
-width: 80%;
 
-}
-
-.header_txt  {
-    padding: 10px;
-    margin: 20px 0px 20px 300px
-
-}
 #title{
     display: inline-flex;
     flex-direction: row;
@@ -102,6 +91,19 @@ h1, h2{
     font-family: 'Nosifer', cursive;
     text-align: center;
 }
+.main_img {
+padding: 10px;
+margin: 20px auto;
+width: 50%;
+
+}
+
+.main_txt  {
+    padding: 10px;
+    margin: 20px 0px 20px 300px
+
+}
+
 
 /*h3{
     font-size: 2em;
@@ -169,6 +171,7 @@ input {
 }
 */
 footer{
+    display: flex;
    text-align: center;
    padding: 10px 0;
    background-color: black;
