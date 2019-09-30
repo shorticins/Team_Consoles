@@ -92,7 +92,7 @@ remember to include header and footer - thx--Shanen
         }
     ?>
 
-    <input type="submit" name="register_button" value="Register to Creep It Real!">
+    <input type="submit" name="register_button" value="Register!">
 
     <?php // display message when submit button is clicked and all fields are correctly entered
     if ((isset($_POST['register_button']))  && (!isset($error_f)) && (!isset($error_l))&& (!isset($error_e)) && (!isset($error_p)) && (!isset($error_cp)) && ($conf_password == $password)) {
