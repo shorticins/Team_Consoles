@@ -90,14 +90,16 @@ h1{
     align-items: center;*/
     font-family: 'Nosifer', cursive;
     text-align: center;
+    font-size: 2em;
 }
 h2 {
     text-align:center;
     font-family:'Nosifer', cursive;
     margin: 50px auto;
+    font-size: 2em;
 }
 .main_img {
-width: 50%;
+width: 60%;
 margin: auto;
 }
 
@@ -108,9 +110,9 @@ margin: auto;
 }*/
 
 
-/*h3{
+h3{
     font-size: 2em;
-}*/
+}
 
 #login_header, #register_header {
     padding: 20px;
@@ -123,20 +125,22 @@ margin: auto;
     wrap:wrap;
     justify-content: center;
     padding: 20px;
-    margin-left: 16%;
+    margin-left: 100px;
 }
 
 .categories{
     padding: 20px;
 }
-category_img {
-    width: 20%;
+
+.category_img {
+    width: 75%;
 }
+
 p{
     color: white;
     font-size: 1.3em;
     text-align: left;
-    margin: 40px 0px 40px 350px;
+    margin: 40px 0px 40px 100px;
 
 }
 #register_link {
@@ -181,21 +185,22 @@ input {
 }
 
 footer{
-    display: flex;
+    /* display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 border-top: 3px groove orange;
 background-color: black;
-padding: 10px auto;
+padding: 10px auto; */
    /* display: flex;
    text-align: center;
    padding: 10px 0;
    background-color: black;
-   border-top: 2px groove orange;*/
+   border-top: 2px groove orange; */
+  border-top: 2px groove orange;
 }
-#footer_nav{
+#footer_nav, h4{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -203,10 +208,15 @@ padding: 10px auto;
     align-items: center;
     list-style: none;
     margin: auto;
+
 }
-#footer_nav ul li a{
+.footer_link{
+    padding: 20px;
+}
+#footer_nav ul li a {
     text-decoration: none;
     color: orange;
+
 }
 
 #footer_nav ul li a:hover {
