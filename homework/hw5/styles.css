@@ -6,7 +6,7 @@
 .main{
     diplay: block;
     width: 1700px;
-margin: 3px;
+margin: auto 5px auto 0;
     text-align: center;
 }
 body{
