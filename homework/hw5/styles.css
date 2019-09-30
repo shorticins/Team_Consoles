@@ -129,6 +129,10 @@ p{
 }
 
 main {
+    Display: Flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -164,4 +168,10 @@ footer{
    padding: 10px;
    background-color: black;
    border-top: 2px groove orange;
+}
+#footer_nav{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
