@@ -98,7 +98,6 @@ h1, h2{
     justify-content: center;
     align-items: center;
     font-family: 'Nosifer', cursive;
-    font-size: 2em;
     text-align: center;
 }
 
@@ -114,7 +113,12 @@ h3{
     padding: 20px;
     margin-left: 16%;
 }
-
+.categories{
+clear: both;
+float: left;
+width: 25%;
+margin: auto;
+}
 .categories{
     padding: 20px;
 }

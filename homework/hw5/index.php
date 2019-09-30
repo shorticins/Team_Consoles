@@ -18,15 +18,15 @@
             <div id="categories">
             <div class="categories" style="display:inline-block">
                 <h3>Couples & Groups</h3>
-                <img src="images/costume.jpg" alt="Costumed Couple" width="300">
+                <img class="categories"src="images/costume.jpg" alt="Costumed Couple">
             </div>
             <div class="categories" style="display:inline-block">
                 <h3>Pet Costumes</h3>
-                <img src="images/dog.jpg" alt="Dog Costume" width="300">
+                <img class="categories" src="images/dog.jpg" alt="Dog Costume">
             </div>
             <div class="categories" style="display:inline-block">
                 <h3>TV & Movie</h3>
-                <img src="images/got.jpg" alt="Game of Thrones Costumes" width="300">
+                <img class="categories" src="images/got.jpg" alt="Game of Thrones Costumes">
             </div>
             </div>
 
