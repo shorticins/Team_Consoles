@@ -94,13 +94,11 @@ h1{
 h2 {
     text-align:center;
     font-family:'Nosifer', cursive;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 .main_img {
-padding: 10px;
-margin: 20px auto;
 width: 50%;
-
+margin-top: 20px auto;
 }
 
 .main_txt  {
