@@ -26,12 +26,10 @@ remember to include header and footer - thx--Shanen
          elseif(empty($password)) {
             $error_p = "This field is required. Please enter your password";
         }
-        elseif(empty($conf_password)) {
+        else {
             $error_cp ="This field is required. Please re-enter your password";
         }
-        else{
 
-        }
     }
 ?>
 <main>
@@ -58,11 +56,8 @@ remember to include header and footer - thx--Shanen
         if(isset($error_p)) {
             echo "<p>$error_cp</p>";
         }
-        elseif($conf_password != $password) {
-            echo "<p>Oops! Something is wrong. Re-enter your password.</p>";
-        }
         else {
-
+            echo "<p>Oops! Something is wrong. Re-enter your password.</p>";
         }
     ?>
 
