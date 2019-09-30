@@ -84,12 +84,16 @@ filter: hue-rotate(90deg);
     margin-top: 20px;
 }
 */
-h1, h2{
+h1{
     /*display: flex;
     justify-content: center;
     align-items: center;*/
     font-family: 'Nosifer', cursive;
     text-align: center;
+}
+h2 {
+    text-align:center;
+    font-family:'Nosifier', cursive;
 }
 .main_img {
 padding: 10px;
