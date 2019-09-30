@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Creep it Real</title>
         <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Bangers|Gloria+Hallelujah&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Griffy&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
