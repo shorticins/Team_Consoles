@@ -94,6 +94,7 @@ h1{
 h2 {
     text-align:center;
     font-family:'Nosifier', cursive;
+    margin: 20px auto;
 }
 .main_img {
 padding: 10px;
