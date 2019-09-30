@@ -77,13 +77,13 @@ transform: scale(1.3);
 filter: invert(100%);
 filter: hue-rotate(90deg);
 }
-/*
+/
 .login{
     color: white;
     padding: 20px;
     margin-top: 20px;
 }
-*/
+
 h1{
     /*display: flex;
     justify-content: center;
@@ -98,7 +98,7 @@ h2 {
 }
 .main_img {
 width: 50%;
-margin-top: 20px auto;
+margin: auto;
 }
 
 /*.main_txt  {
