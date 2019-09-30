@@ -13,7 +13,7 @@ body{
     font-family: 'Creepster', cursive;
     background-color: black;
     color: orange;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 header{
@@ -28,7 +28,7 @@ color: black;
 
 .header_img {
 padding: 10px;
-margin: 20px 25% 20px 30%;
+margin: 20px;
 }
 
 .header_txt  {
