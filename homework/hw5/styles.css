@@ -170,8 +170,11 @@ footer{
    border-top: 2px groove orange;
 }
 #footer_nav{
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    list-style: none;
+    padding: 3px;
+    margin: 2px;
 }
