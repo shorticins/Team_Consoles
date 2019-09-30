@@ -12,7 +12,7 @@
             </div>
 
             <div class="header_img">
-                <img src="images/skull.jpg" alt="Skull and Pumpkins" width="800">
+                <img src="images/skull.jpg" alt="Skull and Pumpkins">
             </div>
 
             <div id="categories">
