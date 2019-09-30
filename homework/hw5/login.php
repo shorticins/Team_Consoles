@@ -66,7 +66,7 @@ remember to include header and footer - thx--Shanen
         }
     ?>
 
-    <input type="submit" name="login_button" value="Login to Creep It Real!">
+    <input type="submit" name="login_button" value="Login!">
 
     <?php // display message when submit button is clicked and all fields are correctly entered
     if ((isset($_POST['login_button'])) && (!isset($error_e)) && (!isset($error_p)) && (!isset($error_cp)) && ($conf_password == $password)) {

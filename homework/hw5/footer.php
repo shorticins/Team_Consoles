@@ -3,7 +3,7 @@
         <footer>
         <div class="footer">
          <nav>
-              <ul>
+              <ul class="footer_links"> 
                 <li class="footer_link"><a href="index.php">Home</a></li>
                 <li class="footer_link"><a href="register.php">Register</a></li>
                 <li class="footer_link"><a href="login.php">Log in</a></li>

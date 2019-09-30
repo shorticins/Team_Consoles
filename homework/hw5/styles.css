@@ -4,7 +4,7 @@
     padding: 0;
 }
 .main{
-    width: 1500px;
+    width: 1350px;
 
 }
 body{
@@ -26,7 +26,7 @@ color: black;
 
 .header_img {
 padding: 10px;
-margin: 20px 20% 20px 32%;
+margin: 20px 25% 20px 30%;
 }
 
 .header_txt  {
@@ -109,7 +109,7 @@ h3{
 
 #categories{
     padding: 20px;
-    margin-left: 20%;
+    margin-left: 16%;
 }
 
 .categories{
@@ -159,9 +159,6 @@ input {
   color: red;
 }
 
-.footer_link{
-    text-align: center;
-}
 footer{
    text-align: center;
    padding: 10px;
