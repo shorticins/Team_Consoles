@@ -101,11 +101,11 @@ width: 50%;
 margin-top: 20px auto;
 }
 
-.main_txt  {
+/*.main_txt  {
     padding: 10px;
     margin: 20px 0px 20px 300px
 
-}
+}*/
 
 
 /*h3{
@@ -117,6 +117,11 @@ margin-top: 20px auto;
 }
 
 #categories{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    wrap:wrap;
+    justify-content: center;
     padding: 20px;
     margin-left: 16%;
 }
@@ -124,7 +129,9 @@ margin-top: 20px auto;
 .categories{
     padding: 20px;
 }
-
+category_img {
+    width: 250px;
+}
 p{
     color: white;
     font-size: 1.3em;
@@ -183,6 +190,7 @@ footer{
 #footer_nav{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;

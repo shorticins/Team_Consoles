@@ -7,26 +7,26 @@
         <main>
             <div class="main">
 
-            <div class="header_txt">
+            <div class="main_txt">
             <h2>Welcome to Creep It Real</h2>
             </div>
 
-            <div class="header_img">
+            <div class="main_img">
                 <img src="images/skull.jpg" alt="Skull and Pumpkins">
             </div>
 
             <div id="categories">
             <div class="categories" style="display:inline-block">
                 <h3>Couples & Groups</h3>
-                <img class="categories"src="images/costume.jpg" alt="Costumed Couple">
+                <img class="category_img"src="images/costume.jpg" alt="Costumed Couple">
             </div>
             <div class="categories" style="display:inline-block">
                 <h3>Pet Costumes</h3>
-                <img class="categories" src="images/dog.jpg" alt="Dog Costume">
+                <img class="category_img" src="images/dog.jpg" alt="Dog Costume">
             </div>
             <div class="categories" style="display:inline-block">
                 <h3>TV & Movie</h3>
-                <img class="categories" src="images/got.jpg" alt="Game of Thrones Costumes">
+                <img class="category_img" src="images/got.jpg" alt="Game of Thrones Costumes">
             </div>
             </div>
 
