@@ -30,7 +30,7 @@ remember to include header and footer - thx--Shanen
             $error_cp ="This field is required. Please re-enter your password";
         }
         else{
-
+            
         }
     }
 ?>
@@ -62,12 +62,12 @@ remember to include header and footer - thx--Shanen
             echo "<p>Oops! Something is wrong. Re-enter your password.</p>";
         }
         else {
-
+            
         }
     ?>
 
     <input type="submit" name="login_button" value="Login to Creep It Real!">
-
+    
     <?php // display message when submit button is clicked and all fields are correctly entered
     if ((isset($_POST['login_button'])) && (!isset($error_e)) && (!isset($error_p)) && (!isset($error_cp)) && ($conf_password == $password)) {
     echo "<p>You're successfully logged in.</p>";
