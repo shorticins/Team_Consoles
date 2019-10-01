@@ -26,45 +26,47 @@ remember to include header and footer - thx--Shanen
          elseif(empty($password)) {
             $error_p = "This field is required. Please enter your password";
         }
-        else {
+        elseif(empty($conf_password)) {
             $error_cp ="This field is required. Please re-enter your password";
         }
+        else{
 
+        }
     }
 ?>
 <main>
-    <h1 id="login_header">Login Page</h1>
+    <h1>Login Page</h1>
     <form action="login.php" method="POST">
 
-    <label for="email" class="login_label">Email:</label>
+    <label for="email">Email:</label>
     <input type="email" id="email" name="email" placeholder="test@test.com" value="<?php echo $email; ?>"></br>
     <?php // if email is not entered, display error message
         if(isset($error_e)) {
             echo "<p>$error_e</p>";
         }
     ?>
-    <label for="password" class="login_label">Password:</label>
+    <label for="password">Password:</label>
     <input type="password" id="password" name="password"></br>
     <?php // if password is not entered, display error message
         if(isset($error_p)) {
             echo "<p>$error_p</p>";
         }
     ?>
-    <label for="password" class="login_label">Confirm Your Password:</label>
+    <label for="password">Confirm Your Password:</label>
     <input type="password" id="conf_password" name="conf_password"></br>
     <?php // if password is not entered, display error message
-        if(isset($error_p)) {
+        if(isset($error_cp)) {
             echo "<p>$error_cp</p>";
         }
-        elseif (isset($error_cp)) {
+        elseif($conf_password != $password) {
             echo "<p>Oops! Something is wrong. Re-enter your password.</p>";
         }
-        else{
-            echo "";
+        else {
+
         }
     ?>
 
-    <input type="submit" name="login_button" value="Login!">
+    <input type="submit" name="login_button" value="Login to Creep It Real!">
 
     <?php // display message when submit button is clicked and all fields are correctly entered
     if ((isset($_POST['login_button'])) && (!isset($error_e)) && (!isset($error_p)) && (!isset($error_cp)) && ($conf_password == $password)) {
